@@ -21,6 +21,8 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        String firstVal = request.getParameter("first");
+        String secondVal = request.getParameter("second");
     }
 
 }
