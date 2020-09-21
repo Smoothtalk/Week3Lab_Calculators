@@ -21,6 +21,7 @@
             <input type="submit" name="op" value="*">
             <input type="submit" name="op" value="%">
         </form>
+        <p>Result: ${output}</p>
         <a href="age">Age Calculator</a>
     </body>
 </html>
